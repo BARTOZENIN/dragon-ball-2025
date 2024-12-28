@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #1c9484;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header img{
+   width:300px ; 
+}
+
+header nav   ul{
+list-style: none;
+ 
+
+ display: flex;
+}
+
+header ul li + li{
+    margin-left: 25px;
+}
+
+header a{
+    color:#ebebeb;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.5s;
+}
+
+header a:hover{
+    color: chartreuse;
+   
+}
+
+.zenin{
+    background-image: url(../img/baner.jpg);
+   background-size: cover;
+   background-position:center top 25%;
+    
+
+    height: 320px;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+}
+
+.zenin h1{
+    color: #ebebeb;
+    font-size: 33px;
+}
+
+.contai{
+    max-width: 1200px;
+    margin: 60px auto 0 ;
+    padding: 0 24;
+
+}
+
+.contai h2{
+    margin-bottom: 30px;
+    border-left: 4px solid red;
+    padding-left: 10px;
+}
+
+.infoep{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 24px;
+    
+}
+
+.infoep div{
+    flex:1 1 190px;
+}
+
+.infoep img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+
+.contai{
+    font-weight: bold;
+}
+
+.Historia{
+    background: #1111;
+    color: #000000;
+    
+}
+
+
+.Historia a{
+    color: red;
+}
+
+
+
+.Historia .container .col{
+    flex: 1 1 350px;
+}
+
+
+
+.Historia .container{
+    margin: 64px auto;
+    max-width: 1200px;
+}
